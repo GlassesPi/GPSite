@@ -137,8 +137,7 @@ h1 {
     .shape-lime { left: -9%; bottom: 12%; }
     .shape-coral { left: 7%; top: 22%; width: 52px; height: 52px; }
     .grid-lines { inset: 7% 0; }
-    .social { display: grid; grid-template-columns: 1fr 1fr; align-content: center; gap: 16px 28px; padding-inline: 16px; }
-    .social a:nth-child(even) { justify-self: end; }
+    .social { flex-wrap: wrap; align-content: center; gap: 16px 28px; padding-inline: 16px; }
 }
 
 @media (prefers-reduced-motion: reduce) {
