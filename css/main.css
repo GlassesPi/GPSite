@@ -77,11 +77,11 @@ a { color: inherit; text-decoration: none; }
 }
 h1 {
     margin: 0;
-    font-family: ui-rounded, "Arial Rounded MT Bold", "Avenir Next Rounded", Arial, sans-serif;
+    font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif;
     font-size: clamp(78px, 12.6vw, 184px);
     line-height: .74;
-    letter-spacing: -.075em;
-    font-weight: 950;
+    letter-spacing: -.06em;
+    font-weight: 800;
     text-shadow: 0 0 32px rgba(123, 210, 255, .12);
 }
 .shape { position: absolute; z-index: 1; }
